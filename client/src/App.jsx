@@ -11,7 +11,6 @@ function App() {
 
   return (
     <BrowserRouter>
-    
       <Box sx={{backgroundColor: '#000'}}>
         <Navbar/>
       </Box>
