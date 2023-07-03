@@ -11,29 +11,30 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq'
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy'
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter'
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode'
-import { SportsBaseball, SportsFootball, IceSkating } from '@mui/icons-material'
+import { SportsBaseball, SportsFootball, SportsHockeyOutlined, GridOn, Gamepad, Newspaper, BakeryDining, ControlPoint, Watch, Mouse, Devices} from '@mui/icons-material'
 
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png'
+export const mainColor = '#F5D131'
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon /> },
   { name: 'Tampa Bay Rays', icon: <SportsBaseball /> },
   { name: 'TB Buccaneers', icon: <SportsFootball /> },
-  { name: 'TB Lightning', icon: <IceSkating /> },
-  { name: 'NextJS', icon: <CodeIcon /> },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon /> },
-  { name: 'Podcast', icon: <GraphicEqIcon /> },
-  { name: 'Movie', icon: <OndemandVideoIcon /> },
-  { name: 'Gaming', icon: <SportsEsportsIcon /> },
-  { name: 'Live', icon: <LiveTvIcon /> },
-  { name: 'Sport', icon: <FitnessCenterIcon /> },
-  { name: 'Fashion', icon: <CheckroomIcon /> },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon /> },
-  { name: 'Comedy', icon: <TheaterComedyIcon /> },
-  { name: 'Gym', icon: <FitnessCenterIcon /> },
-  { name: 'Crypto', icon: <DeveloperModeIcon /> }
+  { name: 'TB Lightning', icon: <SportsHockeyOutlined /> },
+  { name: 'Tech News', icon: <Newspaper /> },
+  { name: 'ReactJS', icon: <CodeIcon /> },
+  { name: 'Chess', icon: <GridOn /> },
+  { name: 'Game Development', icon: <SportsEsportsIcon /> },
+  { name: 'Teamfight Tactics', icon: <Mouse /> },
+  { name: 'Valorant', icon: <Gamepad /> },
+  { name: 'Counter Strike', icon: <ControlPoint /> },
+  { name: 'Lo-fi', icon: <MusicNoteIcon /> },
+  { name: 'Weightlifting', icon: <FitnessCenterIcon /> },
+  { name: 'Anime', icon: <LiveTvIcon /> },
+  { name: 'Watches', icon: <Watch /> },
+  { name: 'Tech Unboxing', icon: <Devices /> },
+  { name: 'Crypto', icon: <DeveloperModeIcon /> },
+  { name: 'Cooking', icon: <BakeryDining/> }
 ]
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png'

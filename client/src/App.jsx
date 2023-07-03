@@ -5,6 +5,8 @@ import Feed from './components/Feed'
 import VideoDetail from './components/VideoDetail'
 import ChannelDetail from './components/ChannelDetail'
 import Search from './components/Search'
+import { useState, useContext, createContext } from 'react'
+export const ColorContext = createContext() 
 
 function App() {
 

@@ -6,7 +6,7 @@ import { demoProfilePicture } from '../utils/constants'
 
 const ChannelCard = ({ channelDetails, marginTop}) => {
   return (
-    <Box sx={{boxShadow: 'none', borderRadius: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', width: {xs: '356px', md: '320px'}, 
+    <Box sx={{boxShadow: 'none', borderRadius: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', width: {xs: '356px', md: '280px'}, 
     height: '326px', margin: 'auto', marginTop: marginTop
     }}>
       <Link to={`/channel/${channelDetails?.id?.channelId}`}>

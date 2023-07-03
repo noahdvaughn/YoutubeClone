@@ -1,3 +1,5 @@
+import
+
 html,
 body {
   margin: 0;
@@ -5,11 +7,11 @@ body {
   box-sizing: border-box;
   background-color: black
 }
-
 a {
   text-decoration: none;
   color: black;
 }
+
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -27,7 +29,7 @@ a {
 }
 
 .category-btn:hover {
-  background-color: #FC1503 !important;
+  background-color: #092C5C !important;
   color: white !important;
 }
 
