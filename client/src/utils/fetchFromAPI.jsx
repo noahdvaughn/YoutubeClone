@@ -1,6 +1,7 @@
 import axios from 'axios'
 
 const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
+console.log(import.meta.env.VITE_API_KEY)
 
 const options = {
   params: {
