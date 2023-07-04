@@ -6,6 +6,7 @@ import VideoDetail from './components/VideoDetail'
 import ChannelDetail from './components/ChannelDetail'
 import Search from './components/Search'
 import { useState, useContext, createContext } from 'react'
+import SearchFeed from './components/SearchFeed'
 export const ColorContext = createContext() 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
         <Route path='/' element={<Feed/>}/>
         <Route path='/video/:id' element={<VideoDetail/>}/>
         <Route path='/channel/:id' element={<ChannelDetail/>}/>
-        <Route path='/search/:searchTerm' element={<Search/>}/>
+        <Route path='/search/:searchTerm' element={<SearchFeed/>}/>
       </Routes>
     </BrowserRouter>
     
